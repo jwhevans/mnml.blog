@@ -1,0 +1,58 @@
+baseURL = "https://mnml.blog/"
+languageCode = "en-us"
+title = "mnml.blog"
+paginate = 10
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+  name = "James Evans"
+
+[params]
+   author = "James Evans"
+   description = "In a society that profits from your self doubt, liking yourself is a rebellious act."
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 2
+
+  [[menu.main]]
+    name = "archive"
+    identifier = "archive"
+    url = "/posts/"
+    weight = 3
+
+[taxonomies]
+tag = "tags"
+
+[permalinks]
+  posts = "/:year/:month/:slug/"
+  
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+

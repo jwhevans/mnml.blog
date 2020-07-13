@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+    <article class="post">
+        <header>
+            <h1>{{ .Title }}</h1>
+        </header>
+        <div class="content">
+            {{ .Content }}
+        </div>
+        {{ partial "articleInfoFull.html" . }}
+    </article>
+    
+   <!--><div id="bottom-nav">
+        <p class="nav-left">{{ with .NextInSection -}}
+          <a class="prev" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- end }}</p>
+        <p id="nav-middle"></p>
+        <p class="nav-right">{{ with .PrevInSection -}}
+          <a class="next" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- end }}</p>
+        <div style="clear: both"></div>
+    </div><!-->
+    
+    
+    <div id="bottom-nav">
+    <div class="nav-left">
+    	{{ with .NextInSection -}}
+        <a class="prev" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- end }}</div> <!-- nav-left -->
+    <div class="nav-right">
+    	{{ with .PrevInSection -}}
+        <a class="next" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- end }}</div> <!-- nav-right -->
+    </div>
+        
+        
+    {{ if .Site.DisqusShortname }}
+        {{ template "_internal/disqus.html" . }}
+    {{ end }}
+
+{{ end }}

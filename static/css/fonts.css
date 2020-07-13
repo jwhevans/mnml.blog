@@ -1,0 +1,50 @@
+/* -- Sans Serif Font -- */
+@font-face {
+font-family: FiraSans;
+src: url("/fonts/FiraSans/Normal/Roman/FiraSans-Regular.eot");
+src: url("/fonts/FiraSans/Normal/Roman/FiraSans-Regular.woff") format("woff"),
+       url("/fonts/FiraSans/Normal/Roman/FiraSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+font-family: FiraSans;
+font-weight: bold;
+src: url("/fonts/FiraSans/Normal/Roman/FiraSans-Medium.eot");
+src: url("/fonts/FiraSans/Normal/Roman/FiraSans-Medium.woff") format("woff"),
+       url("/fonts/FiraSans/Normal/Roman/FiraSans-Medium.woff2") format("woff2");
+}
+
+@font-face {
+font-family: FiraSans;
+font-weight: lighter;
+src: url("/fonts/FiraSans/Normal/Roman/FiraSans-Light.eot");
+src: url("/fonts/FiraSans/Normal/Roman/FiraSans-Light.woff") format("woff"),
+       url("/fonts/FiraSans/Normal/Roman/FiraSans-Light.woff2") format("woff2");
+}
+
+/* -- Monospaced Font --*/
+@font-face {
+font-family: "FiraMono";
+src: url("/fonts/FiraMono/FiraMono-Regular.eot");
+src: url("/fonts/FiraMono/FiraMono-Regular.woff") format("woff"),
+       url("/fonts/FiraMono/FiraMono-Regular.woff2") format("woff2");
+src: url("/fonts/FiraMono/FiraMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "FiraMono";
+font-weight: bolder;
+src: url("/fonts/FiraMono/FiraMono-Medium.eot");
+src: url("/fonts/FiraMono/FiraMono-Medium.woff") format("woff"),
+       url("/fonts/FiraMono/FiraMono-Medium.woff2") format("woff2");
+src: url("/fonts/FiraMono/FiraMono-Medium.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "FiraMono";
+font-weight: bold;
+src: url("/fonts/FiraMono/FiraMono-Bold.eot"),
+src: url("/fonts/FiraMono/FiraMono-Bold.woff") format("woff"),
+       url("/fonts/FiraMono/FiraMono-Bold.woff2") format("woff2");
+src: url("/fonts/FiraMono/FiraMono-Bold.ttf") format("truetype");
+}
