@@ -13,4 +13,4 @@ tags:
 
 ![Data Visualization](/img/data-vis.jpg)
 
-[1]: https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy-ebook/dp/B07DX9SP4G/ref=sr_1_1?crid=2T7A7L7SB1SR0&dchild=1&keywords=kieran+healy+data+visualization&qid=1588956080&sprefix=kieren+heal%2Caps%2C178&sr=8-1
+[1]: https://bookshop.org/a/11073/9780691181615

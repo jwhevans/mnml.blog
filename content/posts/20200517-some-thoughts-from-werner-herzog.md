@@ -15,4 +15,4 @@ The book ["Werner Herzog: A Guide for the Perplexed: Conversations with Paul Cro
 
 ![Herzog](/img/herzog-back-cover.jpg)
 
-[1]: https://www.amazon.com/Werner-Herzog-Perplexed-Conversations-Cronin/dp/0571259774/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=
+[1]: https://bookshop.org/a/11073/9780571336067

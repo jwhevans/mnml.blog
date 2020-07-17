@@ -39,9 +39,9 @@ v0.1 - 2017
 * Theme: twenty-seventeen
 * Power: grid
 
-I like to read and I post the books I am currently reading. I also post a yearly recap of books that I have read. I link the posts [Bookshop.org][12] a book seller that supports local booksellers in your area. The links are affiliate links and I may receive a small commission if you purchase through a link on this site.
-
 If you want to chat or have a comment I am on [Twitter][3] and [Micro.blog][10].
+
+*A note on affiliate links:* I like to read and I post the books I am currently reading. I also post a yearly recap of books that I have read. I link to [Bookshop.org][12], a book seller that supports local booksellers in your area. I may receive a small commission if you purchase a book through a link on this site.
 
 [1]: https://github.com/jwhevans/static-purity
 [2]: https://gohugo.io

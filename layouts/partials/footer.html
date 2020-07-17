@@ -1,8 +1,17 @@
-<p>
-<a href="https://twitter.com/jwhevans"><span class="fab fa-twitter"></span></a>&nbsp; 
-<a href="https://github.com/jwhevans"><span class="fab fa-github"></span></a>&nbsp; 
-<a href="https://micro.blog/jwhevans"><span class="fab fa-microblog"></span></a>&nbsp; 
-<a href="https://mnml.blog/index.xml"><span class="fas fa-rss"></span></a></p>
-<p>
+<div id="footer-nav">
+  <div class="nav-left">
+    <a href="https://twitter.com/jwhevans"><span class="fab fa-twitter"></span></a>&nbsp; 
+    <a href="https://github.com/jwhevans"><span class="fab fa-github"></span></a>&nbsp; 
+    <a href="https://micro.blog/jwhevans"><span class="fab fa-microblog"></span></a>&nbsp; 
+    <a href="https://mnml.blog/index.xml"><span class="fas fa-rss"></span></a></p>
+  </div>
+  <div class="nav-right">
+    <form method="get" id="search" action="https://duckduckgo.com/" />
+      <input type="hidden" name="sites" value="https://mnml.blog/"/>
+      <input class="field" type="text" name="q" maxlength="255" placeholder="Search Using DuckDuckGo&hellip;"/>
+      <input type="submit" value="Search" style="display: none;" />
+    </form>
+  </div>
+</div>
 © {{ if isset .Site.Params "author"}}{{ .Site.Params.author }}, {{end}}{{ now.Year }}
 </p>

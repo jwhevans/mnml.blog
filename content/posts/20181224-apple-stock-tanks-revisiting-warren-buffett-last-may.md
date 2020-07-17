@@ -30,4 +30,4 @@ Apple’s cash generating machine is not in danger any time soon. Jony Ive said 
 I’m not qualified to give financial advice and this article should not be taken as such. Investing in stocks involves risk. If you are interested in investing for fun or profit I suggest that you read [“The Intelligent Investor”][2] by Benjamin Graham. In fact just read Chapter 9 “The Defensive Investor” and forget about the rest.
 
 [1]: https://www.cnbc.com/2018/05/04/warren-buffett-obsessing-over-iphone-x-sales-in-the-near-term-totally-misses-the-point-on-apples-stock.html
-[2]: https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661/ref=sr_1_1?ie=UTF8&qid=1545508229&sr=8-1&keywords=the+intelligent+investor+by+benjamin+graham
+[2]: https://bookshop.org/a/11073/9780060555665

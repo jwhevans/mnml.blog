@@ -12,4 +12,4 @@ tags:
 
 From ["Letter to My Daughter"][1]
 
-[1]: https://www.amazon.com/exec/obidos/ASIN/1400066123/braipick-20
+[1]: https://bookshop.org/a/11073/9780812980035
