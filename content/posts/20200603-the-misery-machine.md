@@ -6,6 +6,8 @@ draft: false
 publishdate: 2020-06-03T01:00:00-05:00
 tags:
 - thoughts
+- Facebook
+- whatsapp
 ---
 Via Gabe at [MacDrifter][1]
 

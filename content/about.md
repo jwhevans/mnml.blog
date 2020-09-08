@@ -9,6 +9,8 @@ This site was originally created as a learning exercise. Then I decided to post 
 
 Hi, I'm James. Welcome to my website. I work in manufacturing. I've held positions as a manufacturing engineer, engineering manager, and quality assurance manager, but I've been in corporate management for some time now. That means I no longer work on the fun stuff. I make up for that through my hobbies. I have wonderful children that want to learn everything. I have to stay on my toes to keep up with them. I enjoy robotics and that has pushed my interest in design, mechatronics, and most recently, 3D printing. My main printer is a [Prusa MK3S][5]. I post some of my designs and prints at [PrusaPrinters.org][6]. 
 
+Everything I post, both blogs and projects is free forever. If you like my work and want to show your support you can offset some of the hosting costs by donating at [paypal.me/jwhevans][13] or you can help keep me caffeinated at [buymeacoffee.com/jwhevans][14]. You can be assured that I will use 100% of the proceeds from the first link to support this site and development of new projects. I might buy beer with proceeds from the second link.
+
 The site has changed regularly since its inception. I like to tinker with things and I'm never happy with the style. One thing is constant. My domains are always registered with [Hover][8]. Here's a short change log in reverse chronological order:
 
 v0.4 - 2020
@@ -55,4 +57,5 @@ If you want to chat or have a comment I am on [Twitter][3] and [Micro.blog][10].
 [10]: https://micro.blog/jwhevans
 [11]: https://nginx.org
 [12]: https://www.bookshop.org/shop/mnml
-
+[13]: https://paypal.me/jwhevans
+[14]: https://www.buymeacoffee.com/jwhevans
