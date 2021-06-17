@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>applescript on mnml.blog</title>
+    <link>https://mnml.blog/tags/applescript/</link>
+    <description>mnml.blog (applescript)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Jan 2021 20:00:00 -0500</lastBuildDate>
+    
+    <atom:link href="https://mnml.blog/tags/applescript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Automator for Quick Google Translate Queries</title>
+      <author>James Evans</author>
+      <link>https://mnml.blog/2021/01/using-automator-for-quick-google-translate-queries/</link>
+      <pubDate>Wed, 06 Jan 2021 20:00:00 -0500</pubDate>
+      
+      <guid>https://mnml.blog/2021/01/using-automator-for-quick-google-translate-queries/</guid>
+      <description>&lt;p&gt;I work for a company with global offices. Many of my colleagues speak German as their primary language. We often need to translate words and documentation between languages. Google translate is still not a substitute for a professional translation, but it is helpful. I find myself cutting and pasting words and phrases to it all the time.&lt;/p&gt;
+&lt;p&gt;Today I decided that I should automate the task. The Automator application on macOS allows for the creation of “services” that run automation from any app. I created an automation that takes selected text as an input and then sends that text to Google Translate directly. This saves several steps.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mnml.blog/img/automator-google-translate.jpg&#34; alt=&#34;Automator Workflow&#34;&gt;&lt;/p&gt;
+&lt;p&gt;First I created a new “Quick Action” within Automator. Then from the “Utilities” Library I added an action to “Run Applescript”. The script takes the selected text as an input. I create a variable called “site” that uses the input parameter to properly format the Google Translate URL. Translating between other languages is as easy as updating the letters following ?sl= and &amp;amp;tl=. For example, German to English is &lt;code&gt;?sl=de&amp;amp;tl=en&lt;/code&gt; while English to German is &lt;code&gt;?sl=en&amp;amp;tl=en&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After saving and installing the workflow should be available anywhere in the system by selecting some text, then right clicking and opening the “Services” context menu. A new Safari window will open to translate.google.com with your word already translated.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

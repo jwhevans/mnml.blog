@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apple on mnml.blog</title>
+    <link>https://mnml.blog/tags/apple/</link>
+    <description>mnml.blog (apple)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Jan 2021 13:00:00 -0500</lastBuildDate>
+    
+    <atom:link href="https://mnml.blog/tags/apple/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Has Yet to Update Its Privacy Labels on the iOS App Store</title>
+      <author>James Evans</author>
+      <link>https://mnml.blog/2021/01/google-has-not-updated-its-privacy-labels-on-ios-app-store/</link>
+      <pubDate>Thu, 14 Jan 2021 13:00:00 -0500</pubDate>
+      
+      <guid>https://mnml.blog/2021/01/google-has-not-updated-its-privacy-labels-on-ios-app-store/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.macrumors.com/2021/01/05/google-hasnt-updated-ios-apps-since-privacy-labels/&#34;&gt;MacRumors&lt;/a&gt; commentary on a &lt;a href=&#34;https://www.fastcompany.com/90591066/googles-ios-apps-havent-been-updated-in-weeks-apples-privacy-labels-could-be-the-reason-why&#34;&gt;Fast Company&lt;/a&gt; article.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Last month, Apple introduced a new privacy section in the App Store to inform users about some of the data types that apps may collect, and whether that data is linked to them or used to track them. Developers have been required to provide this info to Apple when submitting new apps and app updates to the App Store since December 8, 2020.&lt;/p&gt;
+&lt;p&gt;Interestingly, Fast Company noticed that Google has yet to update any of its iPhone and iPad apps since Apple&amp;rsquo;s requirement went into effect, with apps like Gmail, Chrome, and YouTube having last been updated on December 7, 2020 or prior. As a result, all Google apps still say &amp;ldquo;No Details Provided&amp;rdquo; under the new privacy section in the App Store, with a notice that &amp;ldquo;the developer will be required to provide privacy details when they submit their next app update.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I don’t find it interesting. I’m not surprised at all. I think they will wait as long as possible because this type of thing is embarrassing.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Apple should run a full page ad that’s just this :P &lt;a href=&#34;https://t.co/DTHh6FAtvZ&#34;&gt;pic.twitter.com/DTHh6FAtvZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Guilherme Rambo (@_inside) &lt;a href=&#34;https://twitter.com/_inside/status/1339689228549181440?ref_src=twsrc%5Etfw&#34;&gt;December 17, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Using Automator for Quick Google Translate Queries</title>
+      <author>James Evans</author>
+      <link>https://mnml.blog/2021/01/using-automator-for-quick-google-translate-queries/</link>
+      <pubDate>Wed, 06 Jan 2021 20:00:00 -0500</pubDate>
+      
+      <guid>https://mnml.blog/2021/01/using-automator-for-quick-google-translate-queries/</guid>
+      <description>&lt;p&gt;I work for a company with global offices. Many of my colleagues speak German as their primary language. We often need to translate words and documentation between languages. Google translate is still not a substitute for a professional translation, but it is helpful. I find myself cutting and pasting words and phrases to it all the time.&lt;/p&gt;
+&lt;p&gt;Today I decided that I should automate the task. The Automator application on macOS allows for the creation of “services” that run automation from any app. I created an automation that takes selected text as an input and then sends that text to Google Translate directly. This saves several steps.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mnml.blog/img/automator-google-translate.jpg&#34; alt=&#34;Automator Workflow&#34;&gt;&lt;/p&gt;
+&lt;p&gt;First I created a new “Quick Action” within Automator. Then from the “Utilities” Library I added an action to “Run Applescript”. The script takes the selected text as an input. I create a variable called “site” that uses the input parameter to properly format the Google Translate URL. Translating between other languages is as easy as updating the letters following ?sl= and &amp;amp;tl=. For example, German to English is &lt;code&gt;?sl=de&amp;amp;tl=en&lt;/code&gt; while English to German is &lt;code&gt;?sl=en&amp;amp;tl=en&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After saving and installing the workflow should be available anywhere in the system by selecting some text, then right clicking and opening the “Services” context menu. A new Safari window will open to translate.google.com with your word already translated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apple Granted Patent For Adaptive Keyboards</title>
+      <author>James Evans</author>
+      <link>https://mnml.blog/2021/01/apple-granted-patent-for-adaptive-keyboards/</link>
+      <pubDate>Tue, 05 Jan 2021 01:00:00 -0500</pubDate>
+      
+      <guid>https://mnml.blog/2021/01/apple-granted-patent-for-adaptive-keyboards/</guid>
+      <description>&lt;p&gt;In a post to Slashdot, msmash states:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://apple.slashdot.org/story/20/12/29/1825241/apple-researching-keyboards-with-adaptive-displays-on-each-key?utm_source=rss1.0mainlinkanon&amp;amp;utm_medium=feed&#34;&gt;Apple is researching keyboards with small displays on the keys to dynamically change the label on each key, according to a newly-granted patent filing.&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I don’t care much for the touch bar but this would be useful. I would like the ability to change my keyboard layout and actually see the keys remap. It could also be beneficial if the keys mapped differently for different operating systems and/or programs.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

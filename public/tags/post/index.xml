@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>post on mnml.blog</title>
+    <link>https://mnml.blog/tags/post/</link>
+    <description>mnml.blog (post)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Jan 2021 18:00:00 -0500</lastBuildDate>
+    
+    <atom:link href="https://mnml.blog/tags/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test Post</title>
+      <author>James Evans</author>
+      <link>https://mnml.blog/2021/01/test-post/</link>
+      <pubDate>Sat, 16 Jan 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://mnml.blog/2021/01/test-post/</guid>
+      <description>&lt;p&gt;this is a test post.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

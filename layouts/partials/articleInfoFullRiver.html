@@ -1,0 +1,16 @@
+<div class="article-info">
+  {{ if .Params.date }}
+    <div class="article-date">{{ .Params.date.Format "2006-01-02" }}</div>
+  {{ end }}
+  &nbsp;- <a class="prev" href="{{ .RelPermalink }}">Permalink</a>
+    {{ if .Params.tags }}
+      <div class="article-taxonomies">
+        <div class="article-tags">
+          {{ range .Params.tags }}
+            &nbsp;/
+            <a href="{{ "tags/" | absURL }}{{ . | urlize}}">{{ . }}</a>
+          {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>

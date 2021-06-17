@@ -12,6 +12,12 @@ toNewPosts:
 
 toOldPosts:
   other: "older"
+  
+toNewRivers:
+  other: "newer"
+  
+toOldRivers:
+  other: "older"
 
 tag:
   other: "tag"
@@ -21,6 +27,9 @@ Tags:
 
 Posts:
   other: "Posts"
+  
+Rivers:
+  other: "River"
 
 category:
   other: "category"

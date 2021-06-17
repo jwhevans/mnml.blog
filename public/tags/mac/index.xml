@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mac on mnml.blog</title>
+    <link>https://mnml.blog/tags/mac/</link>
+    <description>mnml.blog (mac)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Jan 2021 20:00:00 -0500</lastBuildDate>
+    
+    <atom:link href="https://mnml.blog/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Automator for Quick Google Translate Queries</title>
+      <author>James Evans</author>
+      <link>https://mnml.blog/2021/01/using-automator-for-quick-google-translate-queries/</link>
+      <pubDate>Wed, 06 Jan 2021 20:00:00 -0500</pubDate>
+      
+      <guid>https://mnml.blog/2021/01/using-automator-for-quick-google-translate-queries/</guid>
+      <description>&lt;p&gt;I work for a company with global offices. Many of my colleagues speak German as their primary language. We often need to translate words and documentation between languages. Google translate is still not a substitute for a professional translation, but it is helpful. I find myself cutting and pasting words and phrases to it all the time.&lt;/p&gt;
+&lt;p&gt;Today I decided that I should automate the task. The Automator application on macOS allows for the creation of “services” that run automation from any app. I created an automation that takes selected text as an input and then sends that text to Google Translate directly. This saves several steps.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mnml.blog/img/automator-google-translate.jpg&#34; alt=&#34;Automator Workflow&#34;&gt;&lt;/p&gt;
+&lt;p&gt;First I created a new “Quick Action” within Automator. Then from the “Utilities” Library I added an action to “Run Applescript”. The script takes the selected text as an input. I create a variable called “site” that uses the input parameter to properly format the Google Translate URL. Translating between other languages is as easy as updating the letters following ?sl= and &amp;amp;tl=. For example, German to English is &lt;code&gt;?sl=de&amp;amp;tl=en&lt;/code&gt; while English to German is &lt;code&gt;?sl=en&amp;amp;tl=en&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After saving and installing the workflow should be available anywhere in the system by selecting some text, then right clicking and opening the “Services” context menu. A new Safari window will open to translate.google.com with your word already translated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Connecting to Oracle from Python on macOS Big Sur</title>
+      <author>James Evans</author>
+      <link>https://mnml.blog/2020/12/connecting-to-oracle-from-python-on-macos-big-sur/</link>
+      <pubDate>Fri, 11 Dec 2020 01:00:00 -0500</pubDate>
+      
+      <guid>https://mnml.blog/2020/12/connecting-to-oracle-from-python-on-macos-big-sur/</guid>
+      <description>&lt;p&gt;After upgrading one of my machines to macOS Big Sur my Python scripts that were connected to an Oracle database broke. I was able to fix them as follows.&lt;/p&gt;
+&lt;p&gt;I use cx_Oracle to handle connections to the database. Within my oracle environment I installed cx_Oracle&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;python -m pip install cx_Oracle --upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Previous versions of macOS worked with the Oracle Instant Client libraries 12.2. Newer versions are available. I was unable to connect using 12.2 or 18.1. I installed the 19.8 version from the &lt;a href=&#34;https://www.oracle.com/database/technologies/instant-client/macos-intel-x86-downloads.html&#34;&gt;Oracle Downloads Site&lt;/a&gt;. If you are only scripting from Python then the Basic Lite version is sufficient. I unzipped these files to ~/Oracle/&lt;/p&gt;
+&lt;p&gt;Previously I was able to use cx_oracle by exporting the LD_LIBRARY_PATH. Several online resources recommend this, e.g. at the command line run &lt;code&gt;export LD_LIBRARY_PATH=”~/Oracle/instantclient_19_8/&amp;quot;&lt;/code&gt;. Doing this on Big Sur led to a connection error DPI:1047.&lt;/p&gt;
+&lt;p&gt;Instead I was able to solve the connection error by starting each script with a call to cx_Oracle.init_oracle_client()&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/usr/local/bin/python3
+
+import cx_Oracle
+
+cx_Oracle.init_oracle_client(lib_dir=&amp;quot;/Users/your-name/Oracle/instantclient_19_8&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

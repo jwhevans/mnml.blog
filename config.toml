@@ -19,19 +19,25 @@ googleAnalytics = ""
     identifier = "about"
     name = "about"
     url = "/about/"
-    weight = 1
+    weight = 4
 
   [[menu.main]]
     identifier = "tags"
     name = "tags"
     url = "/tags/"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
-    name = "archive"
-    identifier = "archive"
+    name = "posts"
+    identifier = "posts"
     url = "/posts/"
-    weight = 3
+    weight = 1
+    
+  [[menu.main]]
+    identifier = "river"
+    name = "river"
+    url = "/river/"
+    weight = 2
 
 [taxonomies]
 tag = "tags"
@@ -43,7 +49,10 @@ tag = "tags"
   [privacy.disqus]
     disable = true
   [privacy.googleAnalytics]
+    anonymizeIP = true
     disable = true
+    respectDoNotTrack = true
+    useSessionStorage = true
   [privacy.instagram]
     disable = true
   [privacy.twitter]
@@ -51,8 +60,9 @@ tag = "tags"
     enableDNT = true
     simple = false
   [privacy.vimeo]
-    disable = true
+    disable = false
+    enableDNT = true
+    simple = false
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
-

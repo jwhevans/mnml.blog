@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>patents on mnml.blog</title>
+    <link>https://mnml.blog/tags/patents/</link>
+    <description>mnml.blog (patents)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jan 2021 01:00:00 -0500</lastBuildDate>
+    
+    <atom:link href="https://mnml.blog/tags/patents/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apple Granted Patent For Adaptive Keyboards</title>
+      <author>James Evans</author>
+      <link>https://mnml.blog/2021/01/apple-granted-patent-for-adaptive-keyboards/</link>
+      <pubDate>Tue, 05 Jan 2021 01:00:00 -0500</pubDate>
+      
+      <guid>https://mnml.blog/2021/01/apple-granted-patent-for-adaptive-keyboards/</guid>
+      <description>&lt;p&gt;In a post to Slashdot, msmash states:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://apple.slashdot.org/story/20/12/29/1825241/apple-researching-keyboards-with-adaptive-displays-on-each-key?utm_source=rss1.0mainlinkanon&amp;amp;utm_medium=feed&#34;&gt;Apple is researching keyboards with small displays on the keys to dynamically change the label on each key, according to a newly-granted patent filing.&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I don’t care much for the touch bar but this would be useful. I would like the ability to change my keyboard layout and actually see the keys remap. It could also be beneficial if the keys mapped differently for different operating systems and/or programs.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

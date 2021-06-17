@@ -2,7 +2,8 @@
 
     <h1>{{ i18n .Title }}</h1>
     {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{ range $pages }}
+    
+    {{ range (.Paginate $pages).Pages }}
         <div class="post-short-list">
             <header>
                 <h2>
@@ -13,4 +14,6 @@
         </div>
     {{ end }}
 
+	{{ partial "paginationPosts.html" . }}
+	
 {{ end }}
