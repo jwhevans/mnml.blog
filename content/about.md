@@ -45,6 +45,11 @@ If you want to chat or have a comment I am on [Twitter][3] and [Micro.blog][10].
 
 *A note on affiliate links:* I like to read and I post the books I am currently reading. I also post a yearly recap of books that I have read. I link to [Bookshop.org][12], a book seller that supports local booksellers in your area. I may receive a small commission if you purchase a book through a link on this site.
 
+**RSS Feeds**  
+[All][15]  
+[Posts only][16]  
+[River only][17] 
+
 [1]: https://github.com/jwhevans/static-purity
 [2]: https://gohugo.io
 [3]: https://twitter.com/jwhevans
@@ -59,3 +64,6 @@ If you want to chat or have a comment I am on [Twitter][3] and [Micro.blog][10].
 [12]: https://www.bookshop.org/shop/mnml
 [13]: https://paypal.me/jwhevans
 [14]: https://www.buymeacoffee.com/jwhevans
+[15]: https://mnml.blog/index.xml
+[16]: https://mnml.blog/posts/index.xml
+[17]: https://mnml.blog/river/index.xml

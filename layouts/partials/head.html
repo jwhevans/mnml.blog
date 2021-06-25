@@ -1,19 +1,24 @@
 <link rel="stylesheet" href="{{ "css/fonts.css" | absURL }}?rnd={{ now.Unix }}" />
 <link rel="stylesheet" href="{{ "css/style.css" | absURL }}?rnd={{ now.Unix }}" />
+
+<meta name="description" content="{{ .Site.Params.Description }}">
+
 <!-- Basic stuff -->
 <meta charset="utf-8">
 <meta name="HandheldFriendly" content="True">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>{{ if .Paginator }}{{ .Title }}{{ else }}{{ .Site.Title}}: {{ .Title }}{{ end }}</title>
-<meta name="description" content="{{ .Site.Params.Description }}">
+<title>{{ .Title }}</title>
 
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
+<link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+<link rel="webmention" href="https://webmention.io/mnml.blog/webmention" />
+<link rel="pingback" href="https://webmention.io/mnml.blog/xmlrpc" />
 
-<link href="https://micro.blog/jwhevans" rel="me" />
 <link rel="apple-touch-icon" sizes="180x180" href=" {{ "img/apple-touch-icon.png" | absURL }}">
 <link rel="icon" type="image/png" sizes="32x32" href=" {{ "img/favicon-32x32.png" | absURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href=" {{ "img/favicon-16x16.png" | absURL }}">

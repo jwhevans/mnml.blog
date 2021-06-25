@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-slug: “{{ replace .Name "-" " " | title }}”
+title: "{{ humanize .Name | title }}"
+slug: “{{ humanize .Name | lower }}”
 date: {{ .Date }}
 draft: false
 published date: {{ .Date }}

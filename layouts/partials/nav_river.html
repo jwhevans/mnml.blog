@@ -1,0 +1,12 @@
+{{ define "main" }}
+	<div id="bottom-nav">
+    <div class="nav-left">
+    	{{ with .NextInSection -}}
+        <a class="prev" href="{{ .RelPermalink }}">{{ i18n "toNewRivers" | humanize }}</a>
+        {{- end }}</div> <!-- nav-left -->
+    <div class="nav-right">
+    	{{ with .PrevInSection -}}
+        <a class="next" href="{{ .RelPermalink }}">{{ i18n "toOldRivers" | humanize }}</a>
+        {{- end }}</div> <!-- nav-right -->
+    </div>
+{{ end }}

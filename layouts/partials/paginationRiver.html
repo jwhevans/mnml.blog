@@ -6,9 +6,7 @@
       <div class="left pagination-item {{ if not .Paginator.HasPrev }}disabled{{ end }}">
             
         {{ if .Paginator.HasPrev }}
-          {{ if eq .Paginator.PageNumber 2 }}
             <a href="{{ .Paginator.Prev.URL | absURL }}">{{ $toNewRiverMessage }}</a>
-          {{ end }}
         {{ end }}
     </div>
     

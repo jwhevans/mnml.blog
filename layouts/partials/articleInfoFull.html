@@ -1,15 +1,19 @@
 <div class="article-info">
-  {{ if .Params.date }}
-    <div class="article-date">{{ .Params.date.Format "2006-01-02" }}</div>
-  {{ end }}
+	{{ if .Params.date }}
+		<div class="article-date">
+		<time class="dt-published" datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Params.Date }}">
+    	{{ .Params.date.Format "2006-01-02" }}
+    	</time></div>
+  		&nbsp;- <a class="u-url" href="{{ .RelPermalink }}">Permalink</a>
+  	{{ end }}
     {{ if .Params.tags }}
-      <div class="article-taxonomies">
+		<div class="article-taxonomies">
         <div class="article-tags">
-          {{ range .Params.tags }}
-            &nbsp;/
-            <a href="{{ "tags/" | absURL }}{{ . | urlize}}">{{ . }}</a>
-          {{ end }}
+			{{ range .Params.tags }}
+            	&nbsp;/
+            	<a href="{{ "tags/" | absURL }}{{ . | urlize}}">{{ . }}</a>
+          	{{ end }}
         </div>
-    </div>
-    {{ end }}
+    	</div>
+	{{ end }}
 </div>

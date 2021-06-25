@@ -6,7 +6,7 @@
         <div class="post-short-list">
             <header>
                 <h2>
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <a class="u-url" href="{{ .RelPermalink }}">{{ .Title }}</a>
                 </h2>
             </header>
             {{ partial "articleInfoFull.html" . }}

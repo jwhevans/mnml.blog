@@ -2,16 +2,27 @@ baseURL = "https://mnml.blog/"
 languageCode = "en-us"
 title = "mnml.blog"
 paginate = 10
-
+copyright = "James Evans"
 disqusShortname = ""
 googleAnalytics = ""
 
 [author]
   name = "James Evans"
+  profile = "https://mnml.blog/about/"
+  email = "jwhevans@hotmail.com"
+  nickname = "James"
 
 [params]
    author = "James Evans"
    description = "In a society that profits from your self doubt, liking yourself is a rebellious act."
+   github = "https://github.com/jwhevans"
+   twitter = "https://twitter.com/jwhevans"
+   microblog = "https://micro.blog/jwhevans"
+   webmentionEndpoint = "https://webmention.io/mnml.blog/webmention"
+   pingbackEndpoint = "https://webmention.io/mnml.blog/xmlrpc"
+   micropubEndpoint = "https://example.com/webmention/micropub"
+   email = "jwhevans@hotmail.com"
+   
 
 [menu]
 
@@ -40,10 +51,13 @@ googleAnalytics = ""
     weight = 2
 
 [taxonomies]
-tag = "tags"
+  tag = "tags"
 
 [permalinks]
   posts = "/:year/:month/:slug/"
+  
+[services.rss]
+  limit = 20
   
 [privacy]
   [privacy.disqus]
@@ -66,3 +80,8 @@ tag = "tags"
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
+    
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5

@@ -8,13 +8,13 @@
     <article class="post-list">
         <header> 
             <h1>
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ .Title }}
             </h1>
         </header>
         <div class="content">
             {{ .Summary }}
         </div>
-        {{ partial "articleInfoDate.html" . }}
+        {{ partial "articleInfoFull.html" . }}
 <!--         {{ if .Truncated }}
             <div class="read-more">
                 <a href="{{ .RelPermalink }}">{{ i18n "readMore" | humanize }}</a>

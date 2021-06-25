@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 	<h1>{{ i18n .Title }}</h1>
 	A running list of random thoughts, links, and social posts.
 	<p>&nbsp;</p>
@@ -7,9 +6,9 @@
     {{ $pages := where site.RegularPages "Type" "in" "river" }}
     
     {{ range (.Paginate $pages).Pages }}
-        <article class="post-list">
+        <article class="post-list e-content">
             {{ .Content }}
-            {{ partial "articleInfoFullRiver.html" . }}
+            {{ partial "articleInfoFull.html" . }}
         </article>
     {{ end }}
 

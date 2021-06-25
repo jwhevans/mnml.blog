@@ -538,3 +538,32 @@ footer {
 .fab:hover, .fas:hover {
   color: var(--a-txt-color);
 }
+
+.microblog_conversation {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin solid #f1f1f1;
+}
+
+.microblog_post {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+}
+
+.microblog_avatar {
+  border-radius: 20px;
+  vertical-align: top;
+}
+
+.microblog_time {
+  font-size: 0.8em;
+  --padding-top: 10px;
+  color: gray;
+}
+
+.microblog_time a {
+  color: var(--a-txt-color);
+  text-decoration: none;
+}
+

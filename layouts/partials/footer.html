@@ -1,9 +1,15 @@
 <div id="footer-nav">
   <div class="nav-left">
-    <a href="https://twitter.com/jwhevans"><span class="fab fa-twitter"></span></a>&nbsp; 
-    <a href="https://github.com/jwhevans"><span class="fab fa-github"></span></a>&nbsp; 
-    <a href="https://micro.blog/jwhevans"><span class="fab fa-microblog"></span></a>&nbsp; 
+    <a href="https://twitter.com/jwhevans" rel="me"><span class="fab fa-twitter"></span></a>&nbsp; 
+    <a href="https://github.com/jwhevans" rel="me"><span class="fab fa-github"></span></a>&nbsp; 
+    <a href="https://micro.blog/jwhevans" rel="me"><span class="fab fa-microblog"></span></a>&nbsp;
+    {{ if eq .Type "posts" }} 
+    <a href="https://mnml.blog/posts/index.xml"><span class="fas fa-rss"></span></a></p>
+    {{ else if eq .Type "river" }} 
+    <a href="https://mnml.blog/river/index.xml"><span class="fas fa-rss"></span></a></p>
+    {{ else }} 
     <a href="https://mnml.blog/index.xml"><span class="fas fa-rss"></span></a></p>
+    {{ end }}
   </div>
   <div class="nav-right">
     <form method="get" id="search" action="https://duckduckgo.com/" />
@@ -13,5 +19,9 @@
     </form>
   </div>
 </div>
-© {{ if isset .Site.Params "author"}}{{ .Site.Params.author }}, {{end}}{{ now.Year }}
+<div class="h-card">
+	<span>© </span>
+	<span class="p-name"><a class="u-url u-uid" href="{{ .Site.BaseURL }}">{{ if isset .Site.Params "author"}}{{ .Site.Params.author }}</a></span>
+	<span>- {{end}}{{ now.Year }}</span>
+</div>
 </p>

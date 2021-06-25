@@ -1,29 +1,31 @@
 {{ define "main" }}
-
-    <article class="post">
-        <header>
+	{{ if ne .Type "river"}}
+	<article class="post h-entry">
+		<header>
+			<div class="p-name">
             <h1>{{ .Title }}</h1>
+            </div>
         </header>
-        <div class="content">
+        <div class="content e-content">
             {{ .Content }}
         </div>
         {{ partial "articleInfoFull.html" . }}
     </article>
     
-    <div id="bottom-nav">
-    <div class="nav-left">
-    	{{ with .NextInSection -}}
-        <a class="prev" href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{- end }}</div> <!-- nav-left -->
-    <div class="nav-right">
-    	{{ with .PrevInSection -}}
-        <a class="next" href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{- end }}</div> <!-- nav-right -->
-    </div>
-        
-        
-    {{ if .Site.DisqusShortname }}
-        {{ template "_internal/disqus.html" . }}
-    {{ end }}
+    {{ partial "nav_posts.html" . }}
+    
+    {{ else }}
+    <article class="post h-entry">
+        <div class="content e-content p-name">
+            {{ .Content }}
+        </div>
 
+        {{ partial "articleInfoFull.html" . }}
+    </article>
+    
+    {{ partial "nav_river.html" . }}
+    
+    {{ end }}
+    
+    <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>    
 {{ end }}

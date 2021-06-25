@@ -1,8 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-slug: “{{ replace .Name "-" " " | title }}”
+slug: {{ dateFormat {{ .Date }} "yyyyMMddHHmmss"
 date: {{ .Date }}
-draft: false
+draft: true
 published date: {{ .Date }}
 tags:
 - other
