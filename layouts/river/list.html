@@ -6,7 +6,7 @@
     {{ $pages := where site.RegularPages "Type" "in" "river" }}
     
     {{ range (.Paginate $pages).Pages }}
-        <article class="post-list e-content">
+        <article class="post-list">
             {{ .Content }}
             {{ partial "articleInfoFull.html" . }}
         </article>

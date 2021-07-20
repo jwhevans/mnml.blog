@@ -8,6 +8,4 @@ tags:
 - idea
 ---
 
-These little [single board computers][1] (SBC) seem great. I think I will pick up a couple of them and test them as a PiHole and file server.
-
-[1]: https://www.friendlyarm.com/index.php?route=product/product&product_id=266
+These little [single board computers](https://www.friendlyarm.com/index.php?route=product/product&product_id=266) (SBC) seem great. I think I will pick up a couple of them and test them as a PiHole and file server.<!--more-->

@@ -13,6 +13,6 @@ tags:
 
 >The science of optics has revealed the scale and detail of the universe for centuries. With the right piece of glass, you can look at a distant galaxy or the wiggling flagella on a single bacteria. But lenses need to focus — they need to move. Engineers at MIT have developed a new type of “metalens” that can shift focus without any moving parts. This could change the way we build devices such as cameras and telescopes. 
 
-The metalens changes structure when heat is applied and it interacts with light differently in these different “phases”. Richard Feynman once said that there is always room at the bottom. We are only scratching the surface of what is possible with solid state devices and quantum phenomena. It will be interesting to watch this technology develop.
+The metalens changes structure when heat is applied and it interacts with light differently in these different “phases”. Richard Feynman once said that there is always room at the bottom. We are only scratching the surface of what is possible with solid state devices and quantum phenomena. It will be interesting to watch this technology develop. <!--more-->
 
 [1]: https://www.extremetech.com/extreme/320211-mit-creates-zoomable-metalens-without-any-moving-parts

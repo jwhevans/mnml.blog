@@ -12,4 +12,4 @@ tags:
 
 By now you have probably seen the viral video of Boston Dynamics’ Atlas, Spot and Handle dancing to Berry Gordy Jr’s “Do You Love Me”. If you haven’t check it out below. It’s the perfect song to show off the current capabilities of these systems. Ten years ago Atlas couldn’t walk on a treadmill with support. Now it’s dancing.
 
-{{< youtube fn3KWM1kuAw >}}
+{{< youtube fn3KWM1kuAw >}}<!--more-->

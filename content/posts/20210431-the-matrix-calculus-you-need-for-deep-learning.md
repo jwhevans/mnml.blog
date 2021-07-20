@@ -11,6 +11,6 @@ tags:
 - machine learning
 ---
 
-If you are going to take on a project that involves training neural networks and you haven’t used calculus in a few years, or a decade, then [this paper on arXiv.org][1] may be of interest.
+If you are going to take on a project that involves training neural networks and you haven’t used calculus in a few years, or a decade, then [this paper on arXiv.org][1] may be of interest. <!--more-->
 
 [1]: https://arxiv.org/abs/1802.01528

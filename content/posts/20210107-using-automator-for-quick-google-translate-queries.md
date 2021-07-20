@@ -13,7 +13,7 @@ tags:
 
 I work for a company with global offices. Many of my colleagues speak German as their primary language. We often need to translate words and documentation between languages. Google translate is still not a substitute for a professional translation, but it is helpful. I find myself cutting and pasting words and phrases to it all the time.
 
-Today I decided that I should automate the task. The Automator application on macOS allows for the creation of “services” that run automation from any app. I created an automation that takes selected text as an input and then sends that text to Google Translate directly. This saves several steps.
+Today I decided that I should automate the task. <!--more-->The Automator application on macOS allows for the creation of “services” that run automation from any app. I created an automation that takes selected text as an input and then sends that text to Google Translate directly. This saves several steps.
 
 ![Automator Workflow](/img/automator-google-translate.jpg)
 

@@ -1,31 +1,57 @@
 {{ define "main" }}
-	{{ if ne .Type "river"}}
+
+{{ if eq .Type "posts" }}
 	<article class="post h-entry">
 		<header>
 			<div class="p-name">
             <h1>{{ .Title }}</h1>
             </div>
         </header>
+        <!-- h-card for webmentions -->
+		{{ partial "myCardHidden.html" .}}
+        {{ if ne .Page.Params.webmention "true" }}
         <div class="content e-content">
-            {{ .Content }}
+        	{{ .Content }}
         </div>
+        {{ else }}
+            {{ .Content }}
+        {{ end }}
         {{ partial "articleInfoFull.html" . }}
     </article>
     
-    {{ partial "nav_posts.html" . }}
-    
-    {{ else }}
-    <article class="post h-entry">
+	{{ partial "nav_posts.html" . }}
+    	
+{{ else }}
+	<article class="post h-entry">
+    	<!-- h-card for webmentions -->
+		{{ partial "myCardHidden.html" .}}
+        {{ if ne .Page.Params.webmention "true" }}
         <div class="content e-content p-name">
-            {{ .Content }}
+        	{{ .Content }}
         </div>
-
+        {{ else }}
+            {{ .Content }}
+        {{ end }}
         {{ partial "articleInfoFull.html" . }}
     </article>
+	
+	{{ partial "nav_river.html" . }}
     
-    {{ partial "nav_river.html" . }}
-    
-    {{ end }}
-    
-    <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>    
+{{ end }}
+
+<div id="webmention">
+<form method="post" id="source" action="https://webmention.io/mnml.blog/webmention" />
+  <label>Have you written a <a href="https://indieweb.org/responses">response</a> to this? Let me know the URL:</label>
+  <p></p>
+  <input type="url" name="source" class="field" maxlength="255" placeholder="https://example.com" />
+  <input id="button" type="submit" class="button" value="Send Webmention" /> 
+  <input type="hidden" name="target" value="{{ .Permalink }}" />
+</form>
+</div>
+
+
+<div id="webmentions">
+<script src="/js/webmention.min.js" data-id="webmentions" page-url="{{ .Permalink }}" async></script>
+</div>
+    	
 {{ end }}

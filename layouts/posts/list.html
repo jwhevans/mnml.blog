@@ -1,6 +1,6 @@
 {{ define "main" }}
     <h1>{{ i18n .Title }}</h1>
-    {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ $pages := where site.RegularPages "Type" "posts" }}
     
     {{ range (.Paginate $pages).Pages }}
         <div class="post-short-list">

@@ -10,6 +10,5 @@ tags:
 - IKEA
 ---
 
-[Uppgradera.co][1] says it is a collection of upgraded IKEA experiences. There is a small collection of items here that improve on or add to existing IKEA designs. If you have IKEA furniture and a 3D printer you should check it out.
+[Uppgradera.co](https://www.uppgradera.co/) says it is a collection of upgraded IKEA experiences. There is a small collection of items here that improve on or add to existing IKEA designs. If you have IKEA furniture and a 3D printer you should check it out. <!--more-->
 
-[1]: https://www.uppgradera.co/

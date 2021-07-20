@@ -12,7 +12,7 @@ tags:
 
 Several days ago, Nick Corasaniti and Reid J. Epstein of The New York Times published an [article][1] outlining several of the ways Republican controlled states are using to tilt upcoming elections in their favor.
 
->But this year, Ms. Hollis will be removed from the board, the result of a local election law signed by Gov. Brian Kemp, a Republican. Previously, election board members were selected by both political parties, county commissioners and the three biggest municipalities in Troup County. Now, the G.O.P.-controlled county commission has the sole authority to restructure the board and appoint all the new members.
+>But this year, Ms. Hollis will be removed from the board, the result of a local election law signed by Gov. Brian Kemp, a Republican. Previously, election board members were selected by both political parties, county commissioners and the three biggest municipalities in Troup County. Now, the G.O.P.-controlled county commission has the sole authority to restructure the board and appoint all the new members.<!--more-->
 
 Partisan election boards.
 

@@ -3,7 +3,8 @@
 		<div class="article-date">
 		<time class="dt-published" datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Params.Date }}">
     	{{ .Params.date.Format "2006-01-02" }}
-    	</time></div>
+    	</time>
+    	</div>
   		&nbsp;- <a class="u-url" href="{{ .RelPermalink }}">Permalink</a>
   	{{ end }}
     {{ if .Params.tags }}

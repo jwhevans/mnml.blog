@@ -24,7 +24,7 @@ My blog is a set of markdown files and a few static assets. The site is statical
  
  cd /var/www/mnml.blog/
  date >> $OUTPUT
- /home/linuxbrew/.linuxbrew/bin/hugo --minify >> $OUTPUT 2>&1
+ $HUGO --minify >> $OUTPUT 2>&1
 
 exit 0
 ```

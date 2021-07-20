@@ -11,4 +11,4 @@ tags:
 
 >It helps sometimes to be a little deaf. - Ruth Bader Ginsburg
 
-Great advice for relationships, business, or just life in general. 
+Great advice for relationships, business, or just life in general. <!--more-->

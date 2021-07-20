@@ -5,6 +5,7 @@ paginate = 10
 copyright = "James Evans"
 disqusShortname = ""
 googleAnalytics = ""
+ignoreErrors = ["error-remote-getjson"]
 
 [author]
   name = "James Evans"

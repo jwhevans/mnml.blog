@@ -1,12 +1,13 @@
-{{ define "main" }}
-	<div id="bottom-nav">
-    <div class="nav-left">
+
+	<div id="page-nav">
+    <div class="page-left">
     	{{ with .NextInSection -}}
         <a class="prev" href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{- end }}</div> <!-- nav-left -->
-    <div class="nav-right">
+    <div class="page-middle"></div>
+    <div class="page-right">
     	{{ with .PrevInSection -}}
         <a class="next" href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{- end }}</div> <!-- nav-right -->
     </div>
-{{ end }}
+
