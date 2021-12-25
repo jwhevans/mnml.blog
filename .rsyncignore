@@ -1,0 +1,8 @@
+*.DS_Store*
+.git
+.vscode
+.gitignore
+.rsyncignore
+mnml.blog.code-workspace
+README.md
+public
