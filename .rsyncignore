@@ -3,6 +3,7 @@
 .vscode
 .gitignore
 .rsyncignore
+.hugo_build.lock
 mnml.blog.code-workspace
 README.md
 public
