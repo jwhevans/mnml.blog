@@ -10,4 +10,4 @@ tags:
 - movies
 ---
 
-Betty White passed away last week, two week shy of her 100th birthday. She was funny, talented, relevant. If you didn't like her something may be wrong with you.
+Betty White passed away last week, two weeks shy of her 100th birthday. She was funny, talented, relevant. If you didn't like her something may be wrong with you.
